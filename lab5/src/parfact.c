@@ -19,7 +19,7 @@ void *ThreadFactorial(void *args) {
   long long partial = 1;
 
   for (long long i = f_args->begin; i <= f_args->end; i++) {
-    printf("настройки :  %lld  %lld\n", partial % mod_value, mod_value);
+    //printf("настройки :  %lld  %lld\n", partial % mod_value, mod_value);
     partial = (partial * i) % mod_value;
   }
 
